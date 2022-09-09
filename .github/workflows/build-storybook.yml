@@ -28,4 +28,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: storybook
-          folder: ./public # output folder from `npm run build-storybook`
+          folder: /root # output folder from `npm run build-storybook`
