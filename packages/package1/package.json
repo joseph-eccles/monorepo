@@ -9,10 +9,11 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@joseph-eccles"
+    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joseph-eccles/monorepo.git"
-  }
+    "url": "git+https://github.com/joseph-eccles/monorepo"
+  },
+  "gitHead": "58484f10b0a6275fba09b6f8a5a648a6e1e731a9"
 }
