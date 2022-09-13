@@ -1,0 +1,18 @@
+31 error Error: Command failed with exit code 128: git commit -F C:\Users\joeye\AppData\Local\Temp\ff113a51-81e2-422b-b650-4b2dcab532a1\lerna-commit.txt
+31 error Author identity unknown
+31 error
+31 error *** Please tell me who you are.
+31 error
+31 error Run
+31 error
+31 error   git config --global user.email "you@example.com"
+31 error   git config --global user.name "Your Name"
+31 error
+31 error to set your account's default identity.
+31 error Omit --global to set the identity only in this repository.
+31 error
+31 error fatal: unable to auto-detect email address (got 'joeye@LAPTOP-15IE7DDQ.(none)')
+31 error     at makeError (C:\Users\joeye\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\lib\error.js:60:11)
+31 error     at handlePromise (C:\Users\joeye\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:118:26)
+31 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31 error     at async Promise.all (index 0)
