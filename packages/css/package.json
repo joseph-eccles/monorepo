@@ -5,7 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/joseph-eccles/monorepo",
   "publishConfig": {
-    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles"
+    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles",
+    "directory": "css"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
