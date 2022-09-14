@@ -1,11 +1,11 @@
 {
   "name": "@joseph-eccles/css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "repository": "https://github.com/joseph-eccles/monorepo",
   "publishConfig": {
-     "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles"
+    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
