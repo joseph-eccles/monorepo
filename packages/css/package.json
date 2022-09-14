@@ -6,12 +6,12 @@
   "repository": "https://github.com/joseph-eccles/monorepo",
   "publishConfig": {
     "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles",
-    "directory": "css"
+    "directory": "dist"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "369f50f437d08083229fe1da97673effde6dc0bc"
+  "gitHead": "59f917f6d979e08092f0e639940d587cdd9f91e5"
 }
