@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 15 Sep 2022 17:23:21 GMT
+// Generated on Wed, 31 Aug 2022 07:55:42 GMT
 
 $made-border-radius-small: 2px; // Small border radius for UI components
 $made-border-radius-default: 4px; // Default border radius for UI components
@@ -37,12 +37,12 @@ $made-color-brand-on-primary: #ffffff; // The text color on your primary brand c
 $made-color-brand-on-secondary: #ffffff; // The text color on your secondary brand color
 $made-color-feedback-error: #ee0000; // Color for error state
 $made-color-feedback-success: #038a00; // Color for success or positive state
-$made-color-feedback-information: #ffc61e; // Color for neutral or optional state
+$made-color-feedback-information: #ffc61e; // Color for information state
+$made-color-feedback-error-light: #fadede; // Light color for error state
+$made-color-feedback-success-light: #dff7df; // Light color for success or positive state
+$made-color-feedback-information-light: #fff4d1; // Light color for information state
 $made-color-feedback-warning: #f38b00; // Color for warning state
 $made-color-feedback-progress: #25836d; // Color for progress states, for example in file upload
-$made-color-feedback-background-error-light: #fadede; // Background color for error state of Light variation of notifications and toasts
-$made-color-feedback-background-success-light: #dff7df; // Background color for success or positive state for Light variation of notifications and toasts
-$made-color-feedback-background-information-light: #fff4d1; // Background color for neutral or optional state of Light variation of notifications and toasts
 $made-color-feedback-text-on-error-light: #b00606; // Text color displayed on top of the error color of Light variation of notifications and toasts
 $made-color-feedback-text-on-success-light: #097007; // Text color displayed on top of the success color of Light variation of notifications and toasts
 $made-color-feedback-text-on-information-light: #332805; // Text color displayed on top of the information color of Light variation of notifications and toasts
@@ -51,7 +51,9 @@ $made-color-text-default-on-dark: #ffffff; // Color of body text on dark backgro
 $made-color-text-helper: #555250; // Text color of helper text on forms, cards etc.
 $made-backdrop-color-background: rgba(20,20,19,0.7); // Background on overlay used with modals
 $made-footer-color-background: #141413; // Background color for footer component
+$made-footer-color-text: #ffffff; // Text color on footer component
 $made-header-color-background: #141413; // Background color for header component
+$made-header-color-text: #ffffff; // Text color on header component
 $made-scrollbar-color-background: #b1ada6; // Background color for scrollbar component
 $made-link-color-default: #cf4500; // Text color for link
 $made-forms-color-border-default: #555250; // Default border color for forms.

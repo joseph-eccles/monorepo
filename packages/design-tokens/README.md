@@ -172,7 +172,6 @@ Made is always evolving – thanks to you. Every time you share local patterns, 
 If you're interested, definitely check out our Contributing Guide! 👀
 
 
-
 ## 🧹Changelog
 Check out our Changelog for the latest updates and releases.
 

@@ -1,19 +1,12 @@
 {
-  "name": "@joseph-eccles/design-tokens",
-  "version": "2.2.2",
+  "name": "design-tokens",
+  "version": "2.2.0",
   "description": "Design tokens by Made Framework",
   "owner": "Made",
   "main": "index.js",
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joseph-eccles/monorepo.git"
-  },
-  "publishConfig": {
-    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles"
-  },
   "scripts": {
     "reinstall": "rimraf node_modules && npm cache clean && npm install",
     "build": "node build.js",

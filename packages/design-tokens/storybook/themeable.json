@@ -245,10 +245,34 @@
      {
       "name": "made-color-feedback-information",
       "value": "#ffc61e",
-      "comment": "Color for neutral or optional state",
+      "comment": "Color for information state",
       "themeable": "Yes",
       "type": "color",
       "original": "color-yellow-04"
+      }, 
+     {
+      "name": "made-color-feedback-error-light",
+      "value": "#fadede",
+      "comment": "Light color for error state",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "#FADEDE"
+      }, 
+     {
+      "name": "made-color-feedback-success-light",
+      "value": "#dff7df",
+      "comment": "Light color for success or positive state",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "#DFF7DF"
+      }, 
+     {
+      "name": "made-color-feedback-information-light",
+      "value": "#fff4d1",
+      "comment": "Light color for information state",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-yellow-01"
       }, 
      {
       "name": "made-color-feedback-warning",
@@ -265,30 +289,6 @@
       "themeable": "Yes",
       "type": "color",
       "original": "color-teal-04"
-      }, 
-     {
-      "name": "made-color-feedback-background-error-light",
-      "value": "#fadede",
-      "comment": "Background color for error state of Light variation of notifications and toasts",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "#FADEDE"
-      }, 
-     {
-      "name": "made-color-feedback-background-success-light",
-      "value": "#dff7df",
-      "comment": "Background color for success or positive state for Light variation of notifications and toasts",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "#DFF7DF"
-      }, 
-     {
-      "name": "made-color-feedback-background-information-light",
-      "value": "#fff4d1",
-      "comment": "Background color for neutral or optional state of Light variation of notifications and toasts",
-      "themeable": "Yes",
-      "type": "color",
-      "original": "color-yellow-01"
       }, 
      {
       "name": "made-color-feedback-text-on-error-light",
@@ -347,12 +347,28 @@
       "original": "color-gray-07"
       }, 
      {
+      "name": "made-footer-color-text",
+      "value": "#ffffff",
+      "comment": "Text color on footer component",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-white"
+      }, 
+     {
       "name": "made-header-color-background",
       "value": "#141413",
       "comment": "Background color for header component",
       "themeable": "Yes",
       "type": "color",
       "original": "color-gray-07"
+      }, 
+     {
+      "name": "made-header-color-text",
+      "value": "#ffffff",
+      "comment": "Text color on header component",
+      "themeable": "Yes",
+      "type": "color",
+      "original": "color-white"
       }, 
      {
       "name": "made-scrollbar-color-background",

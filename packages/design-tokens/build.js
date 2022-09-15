@@ -7,7 +7,7 @@ const fs = require("fs-extra");
 /* paths in which design tokens are built to be packaged and used by consuming teams */
 const iosPath = `ios/MadeDesignTokens/`;
 const androidPath = `android/library/src/partnerbank/`;
-const webPath = `dist/2.2.1/web/themes`;
+const webPath = `dist/2.2.0/web/themes`;
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨

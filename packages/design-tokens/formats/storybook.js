@@ -108,9 +108,11 @@ module.exports = function (dictionary, options) {
           (token.attributes.category === `backdrop` &&
             token.attributes.type === `color`) ||
           (token.attributes.category === `header` &&
-            token.attributes.type === `color`) ||
+            token.attributes.type === `color` &&
+            token.attributes.item === `background`) ||
           (token.attributes.category === `footer` &&
-            token.attributes.type === `color`) ||
+            token.attributes.type === `color` &&
+            token.attributes.item === `background`) ||
           (token.attributes.category === `scrollbar` &&
             token.attributes.type === `color`)
       )
@@ -323,8 +325,14 @@ module.exports = function (dictionary, options) {
     dictionary.allProperties
       .filter(
         (token) =>
-          token.attributes.category === `color` &&
-          token.attributes.type === `text`
+          (token.attributes.category === `color` &&
+            token.attributes.type === `text`) ||
+          (token.attributes.category === `header` &&
+            token.attributes.type === `color` &&
+            token.attributes.item === `text`) ||
+          (token.attributes.category === `footer` &&
+            token.attributes.type === `color` &&
+            token.attributes.item === `text`)
       )
       .map((token) => {
         const original = `${token.original.value
@@ -1193,30 +1201,6 @@ module.exports = function (dictionary, options) {
         "oldValue": "${token.value}",
         "new": "${token.deprecated_comment}",
         "newValue": "${newValue}"
-      }`;
-      })
-      .join(`,`) +
-    `],
-    "themeable" : [\n` +
-    dictionary.allProperties
-      .filter((token) => token.themeable === `Yes` && token.deprecated !== true)
-      .map((token) => {
-        const original = function () {
-          return `${token.original.value
-            .replace(/\./g, "-")
-            .replace(/\{/g, "")
-            .replace(/\}/g, "")
-            .replace(/\-}/g, "")
-            .replace(/.value/g, "")}`;
-        };
-        return ` 
-     {
-      "name": "${token.name}",
-      "value": "${token.value}",
-      "comment": "${token.comment}",
-      "themeable": "${token.themeable}",
-      "type": "${token.type}",
-      "original": "${original()}"
       }`;
       })
       .join(`,`) +

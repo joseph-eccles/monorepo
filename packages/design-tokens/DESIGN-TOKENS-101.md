@@ -48,6 +48,8 @@ Type is used in define token types for Invision.
 
 You could add a deprecated flag like in the example above. This flags that the token is deprecated and outputs this token to a separate deprecated file in the dist folder.
 
+The `themeable` property means that this token is themeable and will be added to the theme files in the package. A token is themeable when the design token value is not cascaded down by another token or is hard coded and it is recommended that this can be themed when creating a new variation. 
+
 This is how [Style Dictionary naming](https://amzn.github.io/style-dictionary/#/tokens?id=design-token-structure) works but we have adapted Made. Tokens to follow [Naming Tokens in Design Systems](https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676) as a guideline for naming conventions. Due to this there are custom formats we have built to transform tokens, see below.
 
 ## Configuration
@@ -163,7 +165,9 @@ Remember to communicate to teams if there are breaking changes e.g. DAS, MCC. A 
 
 * Follow naming conventions as outlined [here](./NAMING-CONVENTIONS.md) 
 * Design token is used in several components or layouts
-* Ensure that it clear where this is to be used based on its name
+* Is the token themeable e.g. will the token cascade to other tokens e.g. `made-color-feedback-error` cascades to `background` and `border` properties.
+* Only add a new token if there is no existing design token that meets your requirements.
+* Ensure that it clear where this is to be used based on its name e.g do you need to specify `background`, `border`, `text`
 * Ensure that design token sits in correct category e.g. action tokens go in color-action.json
 * Cascade design token values where possible e.g. Use `{color.brand.primary.value}` not `#CF4500`
 * Design Tokens should be used in multiple elements and NOT specific to one element. We try to limit the about of one-off component-specific tokens

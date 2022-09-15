@@ -217,6 +217,9 @@
       "error": "#ee0000",
       "success": "#038a00",
       "information": "#ffc61e",
+      "error-light": "#fadede",
+      "success-light": "#dff7df",
+      "information-light": "#fff4d1",
       "warning": "#f38b00",
       "progress": "#25836d",
       "background": {
@@ -226,13 +229,18 @@
         "success-light": "#dff7df",
         "information": "#ffc61e",
         "information-light": "#fff4d1",
-        "warning": "#f38b00"
+        "warning": "#f38b00",
+        "progress": "#25836d"
       },
       "border": {
         "error": "#ee0000",
         "success": "#038a00",
         "information": "#ffc61e",
-        "warning": "#f38b00"
+        "error-light": "#fadede",
+        "success-light": "#dff7df",
+        "information-light": "#fff4d1",
+        "warning": "#f38b00",
+        "progress": "#25836d"
       },
       "text": {
         "error": "#ee0000",
@@ -243,7 +251,7 @@
         "on-error-light": "#b00606",
         "on-success": "#ffffff",
         "on-success-light": "#097007",
-        "on-information": "#ffffff",
+        "on-information": "#332805",
         "on-information-light": "#332805",
         "on-warning": "#ffffff"
       }
@@ -269,12 +277,14 @@
   },
   "footer": {
     "color": {
-      "background": "#141413"
+      "background": "#141413",
+      "text": "#ffffff"
     }
   },
   "header": {
     "color": {
-      "background": "#141413"
+      "background": "#141413",
+      "text": "#ffffff"
     }
   },
   "scrollbar": {
