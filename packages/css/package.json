@@ -4,6 +4,9 @@
   "description": "CSS for Made Framework Core Components",
   "owner": "css",
   "main": "index.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joseph-eccles/monorepo.git"
@@ -16,9 +19,7 @@
     "stylelint:test": "stylelint ./src/**/*.css",
     "stylelint:fix": "stylelint ./src/**/*.css --fix",
     "build": "gulp",
-    "generate-release": "standard-version",
-    "postbuild": "cp package.json ./dist/ && cp README.md ./dist/",
-    "pack": "npm run postbuild && npm pack ./dist/"
+    "generate-release": "standard-version"
   },
   "author": "",
   "license": "ISC",
