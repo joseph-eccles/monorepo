@@ -12,7 +12,8 @@
     "url": "git+https://github.com/joseph-eccles/monorepo.git"
   },
   "publishConfig": {
-    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles"
+    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles",
+    "directory": "dist"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -45,5 +46,5 @@
     "stylelint-order": "^5.0.0",
     "stylelint-selector-bem-pattern": "^2.1.1"
   },
-  "gitHead": "d2cbe2776b98aeac8f6914278d12a6791bedd1bf"
+  "gitHead": "e3325eb1f9a3394937f1c6b90430e7d1a3cb5c4e"
 }
