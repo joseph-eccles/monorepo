@@ -1,0 +1,5 @@
+env:
+  SERVER_SERVLET_CONTEXT_PATH: /design-tokens
+
+prometheus:
+  path: /design-tokens/actuator/prometheus
