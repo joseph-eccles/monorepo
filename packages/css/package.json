@@ -4,9 +4,6 @@
   "description": "CSS for Made Framework Core Components",
   "owner": "css",
   "main": "index.js",
-  "directories": {
-    "dist": "dist/*.*"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joseph-eccles/monorepo.git"
