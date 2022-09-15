@@ -12,7 +12,8 @@
     "url": "git+https://github.com/joseph-eccles/monorepo.git"
   },
   "publishConfig": {
-    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles"
+    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles",
+    "directory": "dist"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
