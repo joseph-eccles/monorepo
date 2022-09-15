@@ -2,7 +2,7 @@
   "name": "made-css",
   "version": "2.0.1",
   "description": "CSS for Made Framework Core Components",
-  "owner": "Made",
+  "owner": "@joseph-eccles/css",
   "main": "index.js",
   "directories": {
     "dist": "./dist/*.*"
@@ -44,5 +44,6 @@
     "stylelint-config-standard": "^26.0.0",
     "stylelint-order": "^5.0.0",
     "stylelint-selector-bem-pattern": "^2.1.1"
-  }
+  },
+  "gitHead": "170a850b3b91b0a20d1df7d7ccda448e1c7fd307"
 }
