@@ -19,7 +19,9 @@
     "stylelint:test": "stylelint ./src/**/*.css",
     "stylelint:fix": "stylelint ./src/**/*.css --fix",
     "build": "gulp",
-    "generate-release": "standard-version"
+    "generate-release": "standard-version",
+    "postbuild": "cp package.json ./dist/ && cp README.md ./dist/",
+    "pack": "npm run postbuild && npm pack ./dist/"
   },
   "author": "",
   "license": "ISC",
