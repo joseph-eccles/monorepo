@@ -5,15 +5,14 @@
   "owner": "css",
   "main": "index.js",
   "directories": {
-    "dist": "./dist/*.*"
+    "dist": "dist/*.*"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joseph-eccles/monorepo.git"
   },
   "publishConfig": {
-    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles",
-    "directory": "dist"
+    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -46,5 +45,5 @@
     "stylelint-order": "^5.0.0",
     "stylelint-selector-bem-pattern": "^2.1.1"
   },
-  "gitHead": "e3325eb1f9a3394937f1c6b90430e7d1a3cb5c4e"
+  "gitHead": "339e64175e7442246340dadadcff16736cd4a531"
 }
