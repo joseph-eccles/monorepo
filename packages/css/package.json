@@ -13,7 +13,7 @@
   },
   "publishConfig": {
     "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles",
-    "directory": "./packages/dist/*.*"
+    "directory": "/dist/*.*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -46,5 +46,5 @@
     "stylelint-order": "^5.0.0",
     "stylelint-selector-bem-pattern": "^2.1.1"
   },
-  "gitHead": "0870b6b4ed6156fd205ee304720ada38eaf44b62"
+  "gitHead": "5057ab74ba2eef28f5706dc252f856b21a2dfa27"
 }
