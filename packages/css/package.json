@@ -1,11 +1,12 @@
 {
   "name": "@joseph-eccles/css",
   "version": "1.0.7",
-  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/joseph-eccles/monorepo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseph-eccles/monorepo.git"
+  },
   "publishConfig": {
-    "@joseph-eccles:registry": "https://npm.pkg.github.com/joseph-eccles",
     "directory": "dist"
   },
   "scripts": {
@@ -13,5 +14,9 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "daeb113d7cafeaf9b9e733dde4eec7dadf5e331a"
+  "bugs": {
+    "url": "https://github.com/joseph-eccles/monorepo/issues"
+  },
+  "homepage": "https://github.com/joseph-eccles/monorepo#readme",
+  "description": ""
 }

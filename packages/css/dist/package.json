@@ -1,42 +1,11 @@
 {
-  "name": "@joseph-eccles/css-poc",
-  "version": "1.2.1",
-  "description": "CSS for Made Framework Core Components",
-  "owner": "Made",
+  "name": "dist",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "directories": {
-    "dist": "./dist/*.*"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "stylelint:test": "stylelint src/*.css",
-    "stylelint:fix": "stylelint src/*.css --fix",
-    "build": "gulp",
-    "postbuild": "cp package.json ./dist/ && cp README.md ./dist/",
-    "pack": "npm run postbuild && npm pack ./dist/",
-    "release": "standard-version",
-    "publish-web": "npm run build && npm run postbuild && npm publish ./dist/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "css-mqpacker": "^7.0.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-postcss": "^9.0.0",
-    "gulp-rename": "^2.0.0",
-    "postcss": "^8.3.6",
-    "postcss-css-variables": "0.18.0",
-    "postcss-import": "^14.0.2",
-    "standard-version": "^9.3.2",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^22.0.0"
-  },
-  "dependencies": {
-    "stylelint-order": "^5.0.0"
-  }
+  "license": "ISC"
 }
