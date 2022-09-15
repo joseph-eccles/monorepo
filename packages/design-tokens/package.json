@@ -1,6 +1,6 @@
 {
   "name": "@joseph-eccles/design-tokens",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Design tokens by Made Framework",
   "owner": "Made",
   "main": "index.js",
