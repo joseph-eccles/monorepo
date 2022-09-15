@@ -3761,6 +3761,10 @@ a[aria-disabled='true'] {
 	}
 }
 
+.test {
+	padding: 18rem;
+}
+
 .made-u-display-inline {
 	display: inline;
 }
