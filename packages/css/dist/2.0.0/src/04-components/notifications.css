@@ -1,0 +1,77 @@
+.made-c-notification {
+	border-radius: var(--made-border-radius-default);
+	display: flex;
+	flex-direction: column;
+	margin-bottom: var(--made-space-2-x);
+	padding: var(--made-space-4-x) var(--made-space-6-x);
+	position: relative;
+	width: 100%;
+}
+
+.made-c-notification__title {
+	align-items: center;
+	display: flex;
+	font-size: var(--made-font-size-06);
+	font-weight: var(--made-font-weight-medium);
+	line-height: var(--made-line-height-default);
+	margin-bottom: var(--made-space-2-x);
+}
+
+.made-c-notification__icon {
+	height: var(--made-size-5-x);
+	margin-right: var(--made-space-3-x);
+	width: var(--made-size-5-x);
+	flex-shrink: 0;
+}
+
+.made-c-notification__link {
+	color: inherit;
+	margin-left: var(--made-space-4-x);
+}
+
+.made-c-notification__link:focus {
+	outline-color: var(--made-color-action-border-focus);
+}
+
+.made-c-notification__link-on-dark:focus {
+	outline-color: var(--made-color-action-border-focus-on-dark);
+}
+
+.made-c-notification__subtitle {
+	font-family: var(--made-font-body-family-narrow);
+}
+
+.made-c-notification__close {
+	color: inherit;
+	margin-left: var(--made-space-4-x);
+}
+
+.made-c-notification--success {
+	background-color: var(--made-color-feedback-background-success);
+	color: var(--made-color-feedback-text-on-success);
+}
+
+.made-c-notification--error {
+	background-color: var(--made-color-feedback-background-error);
+	color: var(--made-color-feedback-text-on-error);
+}
+
+.made-c-notification--information {
+	background-color: var(--made-color-feedback-background-information);
+	color: var(--made-color-feedback-text-on-information);
+}
+
+.made-c-notification--success-light {
+	background-color: var(--made-color-feedback-background-success-light);
+	color: var(--made-color-feedback-text-on-success-light);
+}
+
+.made-c-notification--error-light {
+	background-color: var(--made-color-feedback-background-error-light);
+	color: var(--made-color-feedback-text-on-error-light);
+}
+
+.made-c-notification--information-light {
+	background-color: var(--made-color-feedback-background-information-light);
+	color: var(--made-color-feedback-text-on-information-light);
+}

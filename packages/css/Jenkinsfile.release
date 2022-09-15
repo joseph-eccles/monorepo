@@ -1,0 +1,5 @@
+@Library('Pipeline@develop')
+import com.mastercard.labs.*
+import com.mastercard.labs.plans.*
+
+release(new JavascriptReleasePlan())

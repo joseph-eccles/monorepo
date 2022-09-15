@@ -1,0 +1,5 @@
+env:
+  SERVER_SERVLET_CONTEXT_PATH: /css
+
+prometheus:
+  path: /css/actuator/prometheus
