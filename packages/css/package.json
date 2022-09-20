@@ -1,6 +1,6 @@
 {
   "name": "@joseph-eccles/css",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "description": "CSS for Made Framework Core Components",
   "owner": "css",
   "main": "index.js",
